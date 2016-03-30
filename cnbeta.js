@@ -41,7 +41,16 @@ var botch=document.getElementsByClassName("wrapper")[1].getElementsByTagName("di
 var botch=document.getElementById("tanxssp-outer-conmm_10007624_104555_13330262");
 botch.parentNode.removeChild(botch);
 
-
+//提高主框架宽度
+var tinych=document.getElementsByClassName("tiny_bar");
+left=tinych[0].scrollLeft
+width=tinych[0].scrollWidth
+//var allnews=document.getElementById("allnews_all").style.maxWidth="width";
+//var allnews=document.getElementById("allnews_list").style.maxWidth="width";
+//var allnews=document.getElementsByClassName("mt5 allinfo")[0].style.maxWidth="width";
+var allnews=document.getElementsByClassName("content_box main_content_left")[0].style.maxWidth="width";
+//tinych[0].parentNode.removeChild(tinych[0]);
+tinych[0].innerHTML=""
 
 
 
