@@ -1,4 +1,4 @@
-
+////注意!!!该js已不再更新.转为更新cnbetajQ.js.
 
 if(document.getElementById("today_read")){
     homepage()

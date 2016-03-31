@@ -7,13 +7,14 @@
 
   "browser_action": {
     "default_icon": {
-    "19": "cnbeta19.png",
-    "38": "cnbeta38.png"
+      "19": "cnbeta19.png",
+      "38": "cnbeta38.png",
+      "50": "cnbeta50.png"
   }},
   "content_scripts": [
     {
       "matches": ["http://www.cnbeta.com/*"],
-      "js": ["cnbeta.js"]
+      "js": ["jquery-1.12.2.min.js", "cnbetajQ.js"]
     }
   ],
   "permissions": [
