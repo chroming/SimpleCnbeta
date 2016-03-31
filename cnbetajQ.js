@@ -64,10 +64,6 @@ function homepage() {
      //document.getElementsByTagName("body")[0].style.fontFamily="PingFangSC-Regular, sans-serif"
      document.getElementsByTagName("body")[0].style.fontFamily="PingFangSC-Regular, Georgia, 'Times New Roman','Microsoft YaHei', '微软雅黑', STXihei, '华文细黑', sans-serif"
 
-     //添加分割线
-     var para=document.createElement("hr");
-     var clearmo=document.getElementsByClassName("clear");
-     for(var l=0;l<40;l++){clearmo[l].innerHTML="=================================================================="};
      //设置其他样式
      //标题
      //var titlemo=document.getElementsByClassName("title");
