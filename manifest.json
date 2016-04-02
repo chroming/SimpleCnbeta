@@ -3,7 +3,7 @@
 
   "name": "SimpleCnbeta",
   "description": "简化cnbeta页面插件.",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": {

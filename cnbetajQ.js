@@ -38,10 +38,17 @@ function homepage() {
     var graych = $(".item:not(.cooperation) .tools.repeat");
     graych.remove();
 
-    //删除底部广告.广告为异步生成,直接删除生成脚本即可
-    //var botch = $('[id^=tanxssp-outer]');
-    var botch = $('script[mod_name="tanxssp-main"]');
-    botch.remove();
+    //删除底部广告
+    //var botch1 = $("[id^='tanxssp-outer']");
+    //var botch = $('script[mod_name="tanxssp-main"]');
+    //var botch2 = $("[id*='tanxssp']");
+    var botch2 = $("[id*='tanx']");
+    var botjs = $("script[src*='tanx']");
+    //var botleft = $("[style='text-align:left']")
+    //botch.remove();
+    botch2.remove();
+    //botch1.remove();
+    botjs.remove();
 
     //删除最上面模块
     var tinych = $('.tiny_bar');
